@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+exportClasses("tmb_list")
+exportMethods('build_tmb')
+importFrom("stats", "lm", "rnorm", "runif", 'dnorm')
+import('RTMB')
+export('f')
